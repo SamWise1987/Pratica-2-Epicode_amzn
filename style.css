@@ -1,0 +1,344 @@
+:root {
+    --logo-bg: #222F3E;
+    --header-bg: #f56600;
+    --navbar-bg: #354758;
+    --link-color: #017185;
+    --page-bg: #EAEDED;
+}
+
+/* Serve per renderizzare i colori in una classe specifica e reiterare le classi anche in altri  regole css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--page-bg);
+
+}
+
+.navBar {
+    background-color: var(--logo-bg);
+}
+
+.logo {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.logoImg {
+    width: 100px;
+}
+
+.linkContainer {
+    background-color: var(--navbar-bg);
+    color: white;
+}
+
+.linkNav {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0 25px 0 25px;
+    padding: 8px;
+}
+
+/* .linkNav ul{
+    flex-direction: row;
+    display: flex;
+} */
+.spacing {
+    padding: 20px;
+}
+
+.header {
+    margin-top: 10px;
+
+}
+
+.headerShop {
+    background-color: var(--header-bg);
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 10px;
+
+}
+
+.headerShop h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+/* .indexShop{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+} */
+/* .banner {
+    position: relative;
+}
+
+.bannerImg {
+    width: 100%;
+    margin-top: 20px;
+    
+ 
+}
+
+.bannerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    /*Translate serve per centrare in maniera precisa e assoluta  */
+
+.banner {
+    background-image: url("./assets/bg-image.png");
+    /* background: repeat; */
+    background-size: contain;
+    margin-top: 20px;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bannerImg {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.bannerText {
+    color: white;
+
+
+    /*Translate serve per centrare in maniera precisa e assoluta  */
+}
+
+/* La sintassi è importante */
+.bannerText h3,
+.bannerText h4 {
+
+    padding: 0;
+    text-align: center;
+
+
+}
+
+.bannetText h3 {
+    padding: 20px;
+}
+
+.firstSection {
+
+    width: auto;
+    height: 300px;
+    padding: 30px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.textProduct {
+    padding: 10px;
+}
+
+.textProduct a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+.productContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 5px;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+
+.productImg {
+    max-width: 200px;
+    border-radius: 13px;
+    min-height: 250px;
+    object-fit: cover;
+
+
+
+}
+
+.endSectionImg {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.endSection {
+    text-align: center;
+}
+
+.lastSection {
+    width: 300px;
+    height: 325px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.lastTextProduct {
+    padding: 10px;
+}
+
+.lastProductContainer {
+    display: flex;
+    flex-wrap: wrap;
+   flex-direction: row;
+    justify-content: space-around;
+    float: left;
+}
+.lastProductImg{
+    width: calc(25% - 10px);
+}
+.lastProductImg img {
+    width: 100%;
+    height: auto;
+    
+    margin-bottom: 35px;
+}
+.lastProduct {
+    flex-basis: 50%; /* Assegna una base di larghezza per ogni riquadro */
+    margin-bottom: 20px; /* Spazio sotto ogni riquadro */
+    text-align: center; /* Centra il testo sotto l'immagine */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Ombra leggera per distinguerlo */
+    padding: 10px; /* Spazio interno */
+    display: flexbox;
+    flex-direction: column
+  }
+
+.footer {
+    background-color: var(--logo-bg);
+    margin-top: 50px;
+}
+
+.backToTop {
+    background-color: var(--navbar-bg);
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.logoFooter {
+    background-color: var(--logo-bg);
+    margin-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logoImgFooter {
+    width: 100px;
+}
+
+.lastLink {
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.containerImg {
+    border: 2px solid blanchedalmond;
+    width: auto;
+    height: 400px;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+
+
+.divImg {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 30px;
+    float: left;
+
+
+    display: flex;
+    flex-direction: row;
+}
+
+.divImg img {
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.bottom {
+    background-color: #374c63;
+    height: 50px;
+}
+
+.bottom a {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.foot {
+    background-color: #233242;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot img {
+    height: auto;
+    width: 200px;
+}
